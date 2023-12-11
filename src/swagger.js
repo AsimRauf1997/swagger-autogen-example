@@ -1,7 +1,6 @@
 import swaggerAutogen from 'swagger-autogen';
 
 const doc = {
-	openapi: '3.1.0',
 	info: {
 		title: 'My API',
 		description: 'Description',
@@ -9,7 +8,7 @@ const doc = {
 	host: 'localhost:4000',
 };
 
-const outputFile = '../src/swagger-output.js';
+const outputFile = '../src/swaggerDoc.js';
 const routes = ['./routes/user_routes.js'];
 
 /* NOTE: If you are using the express Router, you must pass in the 'routes' only the 
